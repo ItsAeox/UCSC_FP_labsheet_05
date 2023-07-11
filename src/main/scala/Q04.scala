@@ -10,8 +10,8 @@ def isEven(n: Int): Boolean = {
     } else if (n == 1){
         false
     } else if (n < 0){
-        evenCheck(-n)
+        isEven(-n)
     } else {
-        evenCheck(n - 2)
+        isEven(n - 2)
     }
 }

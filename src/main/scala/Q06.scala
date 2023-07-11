@@ -1,7 +1,7 @@
 @main def Question_06: Unit ={
     print("Enter the Number : ")
     var value = scala.io.StdIn.readInt()
-    print("Resukt : ")
+    print("Result : ")
     printFibonacci(value)
 }
 
